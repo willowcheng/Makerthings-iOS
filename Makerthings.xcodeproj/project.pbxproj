@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2ABDF59D4B634F06BF0F0E2E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CEB562F22E44DC92058388 /* libPods.a */; };
 		A3F4C3A31A49A5090019A09F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F4C3A11A49A5090019A09F /* Main.storyboard */; };
-		A3F4C3A51A49A5940019A09F /* MainLaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3F4C3A41A49A5940019A09F /* MainLaunchScreen.xib */; };
+		A3F4C3A51A49A5940019A09F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3F4C3A41A49A5940019A09F /* LaunchScreen.xib */; };
 		A3F4C3A71A49A6AC0019A09F /* launchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F4C3A61A49A6AC0019A09F /* launchImage.png */; };
 		DF05FF151896594000FF2F9B /* glyphicons_207_remove_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF05FF141896594000FF2F9B /* glyphicons_207_remove_2@2x.png */; };
 		DF05FF171896594F00FF2F9B /* glyphicons_212_down_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF05FF161896594F00FF2F9B /* glyphicons_212_down_arrow@2x.png */; };
@@ -75,13 +75,6 @@
 		DFDF45341934699B00A6E581 /* OpenHABInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDF45331934699B00A6E581 /* OpenHABInfoViewController.m */; };
 		DFE104121973FC7500D94943 /* AFRememberingSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE104111973FC7500D94943 /* AFRememberingSecurityPolicy.m */; };
 		DFE10414197415F900D94943 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE10413197415F900D94943 /* Security.framework */; };
-		DFEBBAD51940CBEA00F3F0B8 /* icon-29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = DFEBBACE1940CBEA00F3F0B8 /* icon-29x29.png */; };
-		DFEBBAD61940CBEA00F3F0B8 /* icon-40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = DFEBBACF1940CBEA00F3F0B8 /* icon-40x40.png */; };
-		DFEBBAD71940CBEA00F3F0B8 /* icon-58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = DFEBBAD01940CBEA00F3F0B8 /* icon-58x58.png */; };
-		DFEBBAD81940CBEA00F3F0B8 /* icon-76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = DFEBBAD11940CBEA00F3F0B8 /* icon-76x76.png */; };
-		DFEBBAD91940CBEA00F3F0B8 /* icon-80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = DFEBBAD21940CBEA00F3F0B8 /* icon-80x80.png */; };
-		DFEBBADA1940CBEA00F3F0B8 /* icon-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DFEBBAD31940CBEA00F3F0B8 /* icon-120x120.png */; };
-		DFEBBADB1940CBEA00F3F0B8 /* icon-152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = DFEBBAD41940CBEA00F3F0B8 /* icon-152x152.png */; };
 		DFFD8FD118EDBD4F003B502A /* UICircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFD8FD018EDBD4F003B502A /* UICircleButton.m */; };
 /* End PBXBuildFile section */
 
@@ -99,7 +92,7 @@
 		73CEB562F22E44DC92058388 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BCFC8D0359734746ECE3AB2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A3F4C3A21A49A5090019A09F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = openHAB/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A3F4C3A41A49A5940019A09F /* MainLaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainLaunchScreen.xib; path = ../MainLaunchScreen.xib; sourceTree = "<group>"; };
+		A3F4C3A41A49A5940019A09F /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = ../LaunchScreen.xib; sourceTree = "<group>"; };
 		A3F4C3A61A49A6AC0019A09F /* launchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage.png; sourceTree = "<group>"; };
 		CCDE2E686DCD3817C7AE5376 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DF05FF141896594000FF2F9B /* glyphicons_207_remove_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_207_remove_2@2x.png"; sourceTree = "<group>"; };
@@ -206,13 +199,6 @@
 		DFE104101973FC7500D94943 /* AFRememberingSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFRememberingSecurityPolicy.h; sourceTree = "<group>"; };
 		DFE104111973FC7500D94943 /* AFRememberingSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFRememberingSecurityPolicy.m; sourceTree = "<group>"; };
 		DFE10413197415F900D94943 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		DFEBBACE1940CBEA00F3F0B8 /* icon-29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-29x29.png"; sourceTree = "<group>"; };
-		DFEBBACF1940CBEA00F3F0B8 /* icon-40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40x40.png"; sourceTree = "<group>"; };
-		DFEBBAD01940CBEA00F3F0B8 /* icon-58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-58x58.png"; sourceTree = "<group>"; };
-		DFEBBAD11940CBEA00F3F0B8 /* icon-76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76x76.png"; sourceTree = "<group>"; };
-		DFEBBAD21940CBEA00F3F0B8 /* icon-80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-80x80.png"; sourceTree = "<group>"; };
-		DFEBBAD31940CBEA00F3F0B8 /* icon-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-120x120.png"; sourceTree = "<group>"; };
-		DFEBBAD41940CBEA00F3F0B8 /* icon-152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-152x152.png"; sourceTree = "<group>"; };
 		DFFD8FCF18EDBD4F003B502A /* UICircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICircleButton.h; sourceTree = "<group>"; };
 		DFFD8FD018EDBD4F003B502A /* UICircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICircleButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -367,7 +353,6 @@
 		DFB2623018830A3600D3244D /* openHAB */ = {
 			isa = PBXGroup;
 			children = (
-				DFEBBAC31940CA0F00F3F0B8 /* Icons */,
 				DFDA3CEB193F197200888039 /* LaunchImage */,
 				DF4B84051885AD4600F34902 /* Images */,
 				DF4B83FD18857FA100F34902 /* UI */,
@@ -376,7 +361,7 @@
 				DFB2623918830A3600D3244D /* OpenHABAppDelegate.h */,
 				DFB2623A18830A3600D3244D /* OpenHABAppDelegate.m */,
 				A3F4C3A11A49A5090019A09F /* Main.storyboard */,
-				A3F4C3A41A49A5940019A09F /* MainLaunchScreen.xib */,
+				A3F4C3A41A49A5940019A09F /* LaunchScreen.xib */,
 				DFB2624518830A3600D3244D /* Images.xcassets */,
 				DFB2623118830A3600D3244D /* Supporting Files */,
 			);
@@ -471,20 +456,6 @@
 			name = Util;
 			sourceTree = "<group>";
 		};
-		DFEBBAC31940CA0F00F3F0B8 /* Icons */ = {
-			isa = PBXGroup;
-			children = (
-				DFEBBACE1940CBEA00F3F0B8 /* icon-29x29.png */,
-				DFEBBACF1940CBEA00F3F0B8 /* icon-40x40.png */,
-				DFEBBAD01940CBEA00F3F0B8 /* icon-58x58.png */,
-				DFEBBAD11940CBEA00F3F0B8 /* icon-76x76.png */,
-				DFEBBAD21940CBEA00F3F0B8 /* icon-80x80.png */,
-				DFEBBAD31940CBEA00F3F0B8 /* icon-120x120.png */,
-				DFEBBAD41940CBEA00F3F0B8 /* icon-152x152.png */,
-			);
-			name = Icons;
-			sourceTree = "<group>";
-		};
 		DFFD8FCE18EDBD30003B502A /* Util */ = {
 			isa = PBXGroup;
 			children = (
@@ -547,7 +518,7 @@
 				ORGANIZATIONNAME = "Victor Belov";
 				TargetAttributes = {
 					DFB2622618830A3600D3244D = {
-						DevelopmentTeam = 4K478J645F;
+						DevelopmentTeam = C4V97NAX2K;
 					};
 					DFB2624A18830A3600D3244D = {
 						TestTargetID = DFB2622618830A3600D3244D;
@@ -580,13 +551,12 @@
 			files = (
 				DF05FF191896595600FF2F9B /* glyphicons_213_up_arrow@2x.png in Resources */,
 				DFB2624618830A3600D3244D /* Images.xcassets in Resources */,
-				A3F4C3A51A49A5940019A09F /* MainLaunchScreen.xib in Resources */,
+				A3F4C3A51A49A5940019A09F /* LaunchScreen.xib in Resources */,
 				DFDA3CF5193F199900888039 /* Default.png in Resources */,
 				A3F4C3A71A49A6AC0019A09F /* launchImage.png in Resources */,
 				DFDA3CF6193F199900888039 /* Default-Portrait~ipad.png in Resources */,
 				DFB2623518830A3600D3244D /* InfoPlist.strings in Resources */,
 				A3F4C3A31A49A5090019A09F /* Main.storyboard in Resources */,
-				DFEBBAD61940CBEA00F3F0B8 /* icon-40x40.png in Resources */,
 				DFDA3CED193F198700888039 /* Default-568h@2x.png in Resources */,
 				DF05FF171896594F00FF2F9B /* glyphicons_212_down_arrow@2x.png in Resources */,
 				DFDA3CF8193F199900888039 /* Default-Landscape~ipad.png in Resources */,
@@ -596,16 +566,10 @@
 				DFDA3CF7193F199900888039 /* Default-Portrait@2x~ipad.png in Resources */,
 				DFDF45311932042B00A6E581 /* legal.rtf in Resources */,
 				DFDA3CF9193F199900888039 /* Default-Landscape@2x~ipad.png in Resources */,
-				DFEBBADA1940CBEA00F3F0B8 /* icon-120x120.png in Resources */,
-				DFEBBAD81940CBEA00F3F0B8 /* icon-76x76.png in Resources */,
 				DF4B84071885AE0E00F34902 /* blankicon.png in Resources */,
 				DFDA3CF4193F199900888039 /* Default@2x.png in Resources */,
 				DF4B840F1885B34300F34902 /* app-icon@2x.png in Resources */,
 				DF05FF151896594000FF2F9B /* glyphicons_207_remove_2@2x.png in Resources */,
-				DFEBBAD91940CBEA00F3F0B8 /* icon-80x80.png in Resources */,
-				DFEBBAD71940CBEA00F3F0B8 /* icon-58x58.png in Resources */,
-				DFEBBADB1940CBEA00F3F0B8 /* icon-152x152.png in Resources */,
-				DFEBBAD51940CBEA00F3F0B8 /* icon-29x29.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -821,8 +785,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CCDE2E686DCD3817C7AE5376 /* Pods.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Thomas Eichstädt-Engelen (9TG93F79RE)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "openHAB/Makerthings-Prefix.pch";
 				INFOPLIST_FILE = "openHAB/Makerthings-Info.plist";
@@ -832,7 +798,7 @@
 					"$(PROJECT_DIR)/CrittercismSDK",
 				);
 				PRODUCT_NAME = Makerthings;
-				PROVISIONING_PROFILE = "c9374b3d-9e2e-44f5-970a-f10e9f45b876";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -841,8 +807,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9BCFC8D0359734746ECE3AB2 /* Pods.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: openHAB UG (haftungsbeschränkt) (4K478J645F)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "openHAB/Makerthings-Prefix.pch";
 				INFOPLIST_FILE = "openHAB/Makerthings-Info.plist";
@@ -852,7 +820,7 @@
 					"$(PROJECT_DIR)/CrittercismSDK",
 				);
 				PRODUCT_NAME = Makerthings;
-				PROVISIONING_PROFILE = "F5A4C993-92E6-4A41-93C4-B922E1F99F45";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
