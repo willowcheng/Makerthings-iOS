@@ -26,6 +26,7 @@
                 </label>
             </subviews>
             <color key="backgroundColor" red="0.95686274509803915" green="0.2627450980392157" blue="0.21176470588235294" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="centerX" secondItem="ME1-gv-32M" secondAttribute="centerX" id="2YQ-4C-cMZ"/>
                 <constraint firstItem="NwN-H1-qOj" firstAttribute="top" secondItem="ME1-gv-32M" secondAttribute="bottom" constant="-7" id="B5I-8A-LsR"/>
@@ -34,7 +35,7 @@
                 <constraint firstAttribute="centerX" secondItem="NwN-H1-qOj" secondAttribute="centerX" constant="-0.5" id="XeR-cL-GNj"/>
                 <constraint firstAttribute="centerY" secondItem="ME1-gv-32M" secondAttribute="centerY" constant="75" id="oDp-bV-Cck"/>
             </constraints>
-            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <variation key="default">
                 <mask key="constraints">
