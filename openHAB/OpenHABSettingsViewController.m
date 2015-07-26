@@ -63,8 +63,9 @@
 }
 
 - (void)cancelButtonPressed:(id)sender {
-    [self.navigationController popViewControllerAnimated:YES];
+//    [self.navigationController popViewControllerAnimated:YES];
     NSLog(@"Cancel button pressed");
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)saveButtonPressed:(id)sender {
@@ -73,7 +74,8 @@
     [self updateSettings];
     [self saveSettings];
     [[self appData] rootViewController].pageUrl = nil;
-    [self.navigationController popToRootViewControllerAnimated:YES];
+//    [self.navigationController popToRootViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

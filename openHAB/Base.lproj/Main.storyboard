@@ -424,9 +424,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="N7h-KT-EtL">
-                        <barButtonItem key="rightBarButtonItem" title="Settings" id="757-B0-yFP">
+                        <barButtonItem key="rightBarButtonItem" image="Settings" id="757-B0-yFP">
                             <connections>
-                                <segue destination="0lY-On-oJ2" kind="show" identifier="showSettings" id="vz2-OQ-fHt"/>
+                                <segue destination="LUw-VG-X3l" kind="presentation" identifier="showSettings" id="vz2-OQ-fHt"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -439,7 +439,7 @@
             </objects>
             <point key="canvasLocation" x="1976.25" y="33.802816901408448"/>
         </scene>
-        <!--Settings-->
+        <!--OpenHAB Settings View Controller-->
         <scene sceneID="bFA-oT-thf">
             <objects>
                 <tableViewController id="0lY-On-oJ2" customClass="OpenHABSettingsViewController" sceneMemberID="viewController">
@@ -682,7 +682,7 @@
                             <outlet property="delegate" destination="0lY-On-oJ2" id="wEI-5O-eF9"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Settings" id="6QK-CR-nbP"/>
+                    <navigationItem key="navigationItem" id="6QK-CR-nbP"/>
                     <connections>
                         <outlet property="demomodeSwitch" destination="U49-Vc-87C" id="wLc-cu-jDX"/>
                         <outlet property="idleOffSwitch" destination="nhl-2h-nOu" id="NJW-Yw-ZU9"/>
@@ -697,7 +697,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YKX-NL-XyS" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="VQn-En-nLm" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2812" y="33"/>
+            <point key="canvasLocation" x="3624" y="33"/>
         </scene>
         <!--Select sitemap-->
         <scene sceneID="n2e-ly-9YF">
@@ -951,6 +951,7 @@
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="barTintColor" red="0.95686274510000002" green="0.26274509800000001" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="GujaratiSangamMN-Bold" family="Gujarati Sangam MN" pointSize="18"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </textAttributes>
                     </navigationBar>
@@ -963,12 +964,38 @@
             </objects>
             <point key="canvasLocation" x="1042.5" y="33.802816901408448"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="LD2-HU-4sC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LUw-VG-X3l" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="vAr-Z7-h8M">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.95686274510000002" green="0.26274509800000001" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="GurmukhiMN-Bold" family="Gurmukhi MN" pointSize="18"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0lY-On-oJ2" kind="relationship" relationship="rootViewController" id="48a-Pe-Y3u"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r2n-gi-hAb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2812" y="33"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Settings" width="22" height="22"/>
         <image name="glyphicons_432_plus.png" width="20" height="20"/>
         <image name="glyphicons_433_minus.png" width="18" height="4"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="IN7-RI-eVs"/>
+        <segue reference="9JR-Li-4ww"/>
     </inferredMetricsTieBreakers>
 </document>
