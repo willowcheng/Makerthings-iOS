@@ -10,10 +10,42 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppIconReverse" translatesAutoresizingMaskIntoConstraints="NO" id="ME1-gv-32M">
+                    <rect key="frame" x="140" y="65" width="200" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="YTb-yf-pAu"/>
+                        <constraint firstAttribute="height" constant="200" id="yug-lV-QtK"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAKERTHINGS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NwN-H1-qOj">
+                    <rect key="frame" x="101" y="254" width="279" height="42"/>
+                    <fontDescription key="fontDescription" name="GurmukhiMN-Bold" family="Gurmukhi MN" pointSize="35"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.95686274509803915" green="0.2627450980392157" blue="0.21176470588235294" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="ME1-gv-32M" secondAttribute="centerX" id="2YQ-4C-cMZ"/>
+                <constraint firstItem="NwN-H1-qOj" firstAttribute="top" secondItem="ME1-gv-32M" secondAttribute="bottom" constant="-7" id="B5I-8A-LsR"/>
+                <constraint firstItem="NwN-H1-qOj" firstAttribute="top" secondItem="ME1-gv-32M" secondAttribute="bottom" constant="-42" id="GJ7-Sv-If9"/>
+                <constraint firstAttribute="centerY" secondItem="NwN-H1-qOj" secondAttribute="centerY" constant="-35" id="V3p-3T-mpH"/>
+                <constraint firstAttribute="centerX" secondItem="NwN-H1-qOj" secondAttribute="centerX" constant="-0.5" id="XeR-cL-GNj"/>
+                <constraint firstAttribute="centerY" secondItem="ME1-gv-32M" secondAttribute="centerY" constant="75" id="oDp-bV-Cck"/>
+            </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="B5I-8A-LsR"/>
+                    <exclude reference="GJ7-Sv-If9"/>
+                </mask>
+            </variation>
             <point key="canvasLocation" x="404" y="445"/>
         </view>
     </objects>
+    <resources>
+        <image name="AppIconReverse" width="256" height="256"/>
+    </resources>
 </document>
