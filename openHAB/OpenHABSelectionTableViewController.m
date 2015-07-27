@@ -28,6 +28,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     
     NSLog(@"I have %d mappings", [mappings count]);
     
@@ -65,6 +66,7 @@
     }
     OpenHABWidgetMapping *mapping = [mappings objectAtIndex:indexPath.row];
     cell.textLabel.text = mapping.label;
+    [cell.textLabel setFont:[UIFont fontWithName:@"AvenirNext-Medium" size:17]];
     return cell;
 }
 
