@@ -216,7 +216,7 @@
     OpenHABWidget *widget = [[self.currentPage widgets] objectAtIndex:indexPath.row];
     if ([widget.type isEqualToString:@"Frame"]) {
         if (widget.label.length > 0)
-            return 35;
+            return 40;
         else
             return 0;
     } else if ([widget.type isEqualToString:@"Video"]) {
@@ -225,7 +225,8 @@
         if (widget.image != nil) {
             return widget.image.size.height/(widget.image.size.width/self.widgetTableView.frame.size.width);
         } else {
-            return 44;
+            return 50;
+//            return 44;
         }
     } else if ([widget.type isEqualToString:@"Webview"]) {
         if (widget.height != nil) {
@@ -237,7 +238,7 @@
             return 44*8;
         }
     }
-    return 44;
+    return 50;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
