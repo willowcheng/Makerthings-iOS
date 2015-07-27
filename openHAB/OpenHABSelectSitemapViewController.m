@@ -153,12 +153,13 @@
         cell.textLabel.text = sitemap.label;
     else
         cell.textLabel.text = sitemap.name;
+    [cell.textLabel setFont:[UIFont fontWithName:@"AvenirNext-Medium" size:17]];
     if (sitemap.icon != nil) {
         NSString *iconUrlString = [NSString stringWithFormat:@"%@/images/%@.png", self.openHABRootUrl, sitemap.icon];
         NSLog(@"icon url = %@", iconUrlString);
         [cell.imageView setImageWithURL:[NSURL URLWithString:iconUrlString] placeholderImage:[UIImage imageNamed:@"blankicon.png"] options:0];
     } else {
-        NSString *iconUrlString = [NSString stringWithFormat:@"%@/images/openhab.png", self.openHABRootUrl];
+        NSString *iconUrlString = [NSString stringWithFormat:@"%@/images/app-icon.png", self.openHABRootUrl];
         [cell.imageView setImageWithURL:[NSURL URLWithString:iconUrlString] placeholderImage:[UIImage imageNamed:@"blankicon.png"] options:0];
     }
     return cell;

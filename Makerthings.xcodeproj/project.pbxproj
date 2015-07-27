@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2ABDF59D4B634F06BF0F0E2E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CEB562F22E44DC92058388 /* libPods.a */; };
+		77F2A10D1B65A8070064028A /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77F2A10C1B65A8070064028A /* app-icon.png */; };
 		A3F4C3A31A49A5090019A09F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F4C3A11A49A5090019A09F /* Main.storyboard */; };
 		A3F4C3A51A49A5940019A09F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3F4C3A41A49A5940019A09F /* LaunchScreen.xib */; };
 		A3F4C3A71A49A6AC0019A09F /* launchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F4C3A61A49A6AC0019A09F /* launchImage.png */; };
@@ -90,6 +91,7 @@
 
 /* Begin PBXFileReference section */
 		73CEB562F22E44DC92058388 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F2A10C1B65A8070064028A /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
 		9BCFC8D0359734746ECE3AB2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A3F4C3A21A49A5090019A09F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = openHAB/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3F4C3A41A49A5940019A09F /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = ../LaunchScreen.xib; sourceTree = "<group>"; };
@@ -275,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				DF05FF13189658FD00FF2F9B /* icons */,
+				77F2A10C1B65A8070064028A /* app-icon.png */,
 				DF4B840E1885B34300F34902 /* app-icon@2x.png */,
 				A3F4C3A61A49A6AC0019A09F /* launchImage.png */,
 				DF4B84061885AE0E00F34902 /* blankicon.png */,
@@ -552,6 +555,7 @@
 				DF05FF191896595600FF2F9B /* glyphicons_213_up_arrow@2x.png in Resources */,
 				DFB2624618830A3600D3244D /* Images.xcassets in Resources */,
 				A3F4C3A51A49A5940019A09F /* LaunchScreen.xib in Resources */,
+				77F2A10D1B65A8070064028A /* app-icon.png in Resources */,
 				DFDA3CF5193F199900888039 /* Default.png in Resources */,
 				A3F4C3A71A49A6AC0019A09F /* launchImage.png in Resources */,
 				DFDA3CF6193F199900888039 /* Default-Portrait~ipad.png in Resources */,

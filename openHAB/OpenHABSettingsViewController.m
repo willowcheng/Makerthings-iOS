@@ -33,7 +33,7 @@
 {
     [super viewDidLoad];
     NSLog(@"OpenHABSettingsViewController viewDidLoad");
-    [self.navigationItem setHidesBackButton:TRUE];
+//    [self.navigationItem setHidesBackButton:TRUE];
     UIBarButtonItem *leftBarButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(cancelButtonPressed:)];
     UIBarButtonItem *rightBarButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSave target:self action:@selector(saveButtonPressed:)];
     [self.navigationItem setLeftBarButtonItem:leftBarButton];
@@ -49,6 +49,8 @@
 - (void) viewWillAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+    [self.tableView deselectRowAtIndexPath:self.tableView.indexPathForSelectedRow
+                                  animated:YES];
     id tracker = [[GAI sharedInstance] defaultTracker];
     [tracker set:kGAIScreenName
            value:@"OpenHABSettingsViewController"];
