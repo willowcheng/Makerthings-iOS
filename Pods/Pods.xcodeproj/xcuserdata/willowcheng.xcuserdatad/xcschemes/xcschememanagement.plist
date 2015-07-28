@@ -8,72 +8,56 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>0</integer>
 		</dict>
 		<key>FastSocket.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 		<key>GDataXML-HTML.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>HexColors.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 		<key>NKOColorPickerView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>5</integer>
 		</dict>
 		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>6</integer>
 		</dict>
 		<key>TSMessages.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>7</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0BA353C20025F211AE6D8122BAC454E0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>17E069DE7FB1769EA6494FA863E03BF4</key>
+		<key>156FFA72BA447E0F3C85ACA925EDFFA6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>18A4BA8BFD66F76A5A3AE5290D46B994</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>34DC1A3336F4DEFD9EE7CF4D2775246B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -88,17 +72,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>76D9B863BD8D3E043C937A517AC1B0AD</key>
+		<key>8C0A107321C5716BF98CA50455FAFAF0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A0BA87CFD086660D58BB13A88285877D</key>
+		<key>E8D61425E0F02C5015E480A0A91DAB98</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DA8BB7C29F7119F2F15DBECECF408183</key>
+		<key>F37BC8222F68985AD5EDDB587EAEF15E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

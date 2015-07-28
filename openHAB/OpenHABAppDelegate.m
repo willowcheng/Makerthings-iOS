@@ -14,6 +14,7 @@
 #import "TSMessage.h"
 @import AVFoundation;
 #import "AFRememberingSecurityPolicy.h"
+#import "Parse/Parse.h"
 
 @implementation OpenHABAppDelegate
 @synthesize appData;
@@ -29,6 +30,17 @@ AVAudioPlayer *player;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     NSLog(@"didFinishLaunchingWithOptions started");
+    
+    // https://parse.com/docs/ios_guide#localdatastore/iOS
+    [Parse enableLocalDatastore];
+    
+    // Initialize Parse.
+    [Parse setApplicationId:@"RC3lgpukUQCJEB3PnMy3tpqk3DFKZRrF0xNtfVgy"
+                  clientKey:@"QhHSObxptKgq4GHCOp48TxZNfpdf63S9SMksjZRV"];
+    
+    // [Optional] Track statistics around application opens.
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
     // Override point for customization after application launch.
     [Crittercism enableWithAppID: @"5134a8a08e54584a75000015"];
     [[GAI sharedInstance] trackerWithTrackingId:@"UA-49587640-1"];

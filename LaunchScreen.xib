@@ -19,7 +19,7 @@
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAKERTHINGS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NwN-H1-qOj">
-                    <rect key="frame" x="101" y="254" width="279" height="42"/>
+                    <rect key="frame" x="101" y="254.5" width="279" height="41.5"/>
                     <fontDescription key="fontDescription" name="GurmukhiMN-Bold" family="Gurmukhi MN" pointSize="35"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
@@ -32,7 +32,7 @@
                 <constraint firstItem="NwN-H1-qOj" firstAttribute="top" secondItem="ME1-gv-32M" secondAttribute="bottom" constant="-7" id="B5I-8A-LsR"/>
                 <constraint firstItem="NwN-H1-qOj" firstAttribute="top" secondItem="ME1-gv-32M" secondAttribute="bottom" constant="-42" id="GJ7-Sv-If9"/>
                 <constraint firstAttribute="centerY" secondItem="NwN-H1-qOj" secondAttribute="centerY" constant="-35" id="V3p-3T-mpH"/>
-                <constraint firstAttribute="centerX" secondItem="NwN-H1-qOj" secondAttribute="centerX" constant="-0.5" id="XeR-cL-GNj"/>
+                <constraint firstAttribute="centerX" secondItem="NwN-H1-qOj" secondAttribute="centerX" id="XeR-cL-GNj"/>
                 <constraint firstAttribute="centerY" secondItem="ME1-gv-32M" secondAttribute="centerY" constant="75" id="oDp-bV-Cck"/>
             </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>

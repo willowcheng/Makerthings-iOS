@@ -50,6 +50,7 @@
 {
     [super viewDidLoad];
     NSLog(@"OpenHABViewController viewDidLoad");
+    
     self.pageNetworkStatus = -1;
     sitemaps = [[NSMutableArray alloc] init];
     self.widgetTableView.tableFooterView = [[UIView alloc] init] ;
